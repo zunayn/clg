@@ -22,12 +22,7 @@ int main()
     cout << "Enter a positive integer to print 'Boko' for";
     
     cin >> number;
-    
-    cout << "every third number from 0 to the given number up to 40." << endl;
-    
-    int counter_two = counter + number;
-    cout << counter_two << endl;
-
+ 
     // check for invalid user input
     if (number < 1  || number > 40)
     {
