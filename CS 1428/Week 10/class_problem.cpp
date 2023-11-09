@@ -32,8 +32,7 @@ int main() {
   int array[arraySize];
 
   for (int i = 0; i < arraySize; i++) {
-    cout << "Enter value (to add):";
-    cout << endl;
+    
     cin >> num;
     array[i] = num;
   }
